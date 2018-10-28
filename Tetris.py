@@ -1,15 +1,13 @@
 ########
-# Colab 6
+# Tetris
 # Jifeng Yu
-# andrewID: jifengy
-# section G
 #######
 
 from tkinter import *
 import random
 
 ######
-# Helper functions from previous colabs
+# Helper functions for math floating point
 ######
 
 def almostEqual(d1, d2, epsilon=10**-7):
@@ -235,7 +233,7 @@ def redrawAll(canvas, data):
         gameOverMsg(canvas, data)
 
 ####################################
-# use the run function as-is
+# run function
 ####################################
 
 def run(width=300, height=300):
